@@ -1,0 +1,101 @@
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 600px;
+    height: 400px;
+    padding: 30px;
+    border-radius:10px;
+}
+.photo {
+    width: 250px;
+    height: auto;
+    margin-top: -100px;
+    margin-left: -20px;
+
+}
+
+.heart, .vesy {
+    width: 30px;
+    height: auto;
+}
+
+p, span, button {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.free {
+    background-color: #161840;
+    border-radius: 15px;
+    padding: 6px 10px;
+    color: white;
+    font-size: 11px;
+}
+
+.razer, .number, .number2 {
+     color: rgb(0, 0, 76);
+}
+
+.number {
+    font-size: 13px;
+    margin-bottom: -10px;
+    text-decoration: line-through;
+}
+
+.number2 {
+    font-size: 36px;
+    margin-top: 15px;
+}
+
+.razer{
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.april {
+    font-size: 10px;
+    color: rgba(0, 0, 48, 0.313);
+    margin-top: -30px;
+    margin-bottom: 15px;
+}
+
+.knopkaadd {
+    width: 275px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #4787E9;
+    color: white;
+}
+.vesyknopka, .heartknopka {
+   width: 158px;
+   height: 30px;
+   font-size: 10px;
+   border: none;
+   border-radius: 5px;
+   margin-top: 10px;
+   background-color: white;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+}
+
+.vesy, .heart {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+
+.pcs{
+    font-size: 13px;
+}
